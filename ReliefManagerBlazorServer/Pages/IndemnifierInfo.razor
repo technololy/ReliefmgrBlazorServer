@@ -1,0 +1,53 @@
+﻿@page "/indemnifierinfo"
+
+<div class="form__fieldset" id="IndemnityAgreement">
+    <h2 class="form__title">Indemnity Agreement</h2>
+    <div class="row offset-30">
+        <div id="indemnityDetails" class="row" style="padding:15px !important;">
+            <div class="col-lg-12">
+                <h6>Kindly read the below carefully and proceed when done</h6>
+
+                <p>
+                    Praesent dapibus is not eleifend augue eget sollicitudin velit malesuada liquam
+                    les blandit diam ace venenatis feugiat tellus odio. Lorem Ipsum is simply dummy
+                    text of the rinting typesetting industry has been the ndustry standard dummy
+                    text ever sincer they llam id condimentum purus In non ex at ligula fringilla
+                    bortis. Ut et mauris auctor, aliquet nulla sed, aliquam mauris. Vestibulum sed
+                    malesuada dolor. Integer fringilla odio a dolor aliqu eu euismod lectus
+                    porttitor. Proin et libero nec eros eleifend commodo Phasellus sodales des
+                    volutpat diam id sagittis purus egestas dapibus. Donec bibendum est quis mi
+                    commodo blandit. Maecenas pellentesque, massa vitae faucibus consectetur, ante
+                    magna gravida magna, ut venenatis massa augue et odio. Aliquam luctus viverra
+                    velit, non euismod ligula congue sed.
+                    <br><br>
+                    Mauris nunc leo, sollicitudin a ligula ut, iaculis bibendum lorem. Duis gravida
+                    suscipit purus, at consequat de diam sagittis sit amet. Mauris sed nisl vel urna
+                    egestas elementum eget quis ipsum. Nulla a enim et justoed facilisis ornare. Sed
+                    ante sem, dignissim a vehicula et, rutrum volutpat turpis. Praesent id leo
+                    lacinia lesuada tortor ut, lobortis leo. Cras eget sollicitudin lorem. Etiam
+                    commodo ultricies luctus. Integer porttitor ligula eget quam blandit finibus.
+                    Suspendisse potenti. Nulla blandit augue
+                    <br><br>
+                    Praesent dapibus is not eleifend augue eget sollicitudin velit malesuada liquam
+                    les blandit diam ace venenatis feugiat tellus odio. Lorem Ipsum is simply dummy
+                    text of the rinting typesetting industry has been the ndustry standard dummy
+                    text ever sincer they llam id condimentum purus In non ex at ligula fringilla
+                    bortis. Ut et mauris auctor, aliquet nulla sed, aliquam mauris. Vestibulum sed
+                    malesuada dolor. Integer fringilla odio a dolor aliqu eu euismod lectus
+                    porttitor. Proin et libero nec eros eleifend commodo Phasellus sodales des
+                    volutpat diam id sagittis purus egestas dapibus. Donec bibendum est quis mi
+                    commodo blandit. Maecenas pellentesque, massa vitae faucibus consectetur, ante
+                    magna gravida magna, ut venenatis massa augue et odio. Aliquam luctus viverra
+                    velit, non euismod ligula congue sed.
+                </p>
+            </div>
+        </div>
+        <div class="col-12" style="margin-bottom:20px !important;">
+            @*<button class="form__submit" type="submit" id="sendEmailActivationLink">Proceed</button>*@
+            @*<a class="form__submit" asp-controller="client" asp-action="dashboard"><span>Agree</span></a>*@
+            <button class="form__submit" asp-page-handler="GoToValidationPage" type="submit" id="gotoValidation">Agree</button>
+            <button class="form__submit" type="submit" asp-page-handler="GoToThankYou" id="gotoStep4">Cancel</button>
+        </div>
+    </div>
+</div>
+

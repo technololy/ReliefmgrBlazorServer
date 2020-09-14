@@ -1,0 +1,54 @@
+﻿@page "/userinfo"
+
+<div class="form__fieldset" id="PersonalInformation">
+    <h2 class="form__title">Personal Information</h2>
+    <div class="row offset-30">
+        <div class="col-lg-6">
+            <input class="form__field" type="text" id="lastName" asp-for="Users.LastName" placeholder="Last Name *" />
+        </div>
+        <div class="col-lg-6">
+            <input class="form__field" type="text" id="firstName" asp-for="Users.FirstName" placeholder="First Name *" />
+        </div>
+        <div class="col-lg-6">
+            <input class="form__field" type="text" id="middleName" asp-for="Users.MiddleName" placeholder="Middle Name *" />
+        </div>
+        <div class="col-lg-6">
+            <input class="form__field" type="tel" id="phoneNumber" asp-for="Users.PhoneNumber" placeholder="Phone Number *" />
+        </div>
+        <div class="col-lg-6">
+            <input class="form__field" type="email" asp-for="Users.Email" id="email" placeholder="Email Address *" />
+        </div>
+        <div id="bankSelectDiv" class="col-lg-6">
+            <div id="bankId" style="display:none;"></div>
+        </div>
+        <div class="col-lg-6">
+            <input class="form__field" type="text" id="accountNumber" asp-for="Users.AccountNumber" placeholder="Account Number *" />
+        </div>
+        <div id="stateSelectDiv" class="col-lg-6">
+            <div id="stateId" style="display:none;"></div>
+        </div>
+        <div class="col-lg-6">
+            <select class="form__select" id="identityDocumentType">
+                <option>Identity DocumentType</option>
+                <option value="DriversLicense">Drivers License</option>
+                <option value="InternationalPassport">International Passport</option>
+                <option value="VotersCard">Voters Card</option>
+
+            </select>
+        </div>
+        <div class="col-lg-6">
+            <input class="form__field" type="text" id="documentIdNumber" asp-for="Users.DocumentIdNumber" placeholder="Document Id Number *" />
+        </div>
+        <div class="col-lg-6">
+            <input class="form__field" type="text" id="spouseUniqueNumber" asp-for="Users.SpouseUniqueNumber" placeholder="Spouse Unique Number *" />
+        </div>
+        <div class="col-12" style="margin-bottom:20px !important;">
+            @*<button class="form__submit" type="submit" asp-page-handler="GoToEmploymentInfo" id="gotoStep2">Next</button>*@
+            <input class="form__submit" value="Go To Employment Details" type="submit" asp-page-handler="GoToEmploymentInfo" id="gotoStep2" />
+
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReliefManagerBlazorServer", "ReliefManagerBlazorServer\ReliefManagerBlazorServer.csproj", "{50701AD3-971A-40BB-B46A-803D4C49FA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COVID19Relief.Middleware", "COVID19Relief.Middleware\COVID19Relief.Middleware.csproj", "{F63E026E-58A8-492A-8B3D-E7423A313868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50701AD3-971A-40BB-B46A-803D4C49FA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50701AD3-971A-40BB-B46A-803D4C49FA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50701AD3-971A-40BB-B46A-803D4C49FA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50701AD3-971A-40BB-B46A-803D4C49FA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63E026E-58A8-492A-8B3D-E7423A313868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63E026E-58A8-492A-8B3D-E7423A313868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63E026E-58A8-492A-8B3D-E7423A313868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63E026E-58A8-492A-8B3D-E7423A313868}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
